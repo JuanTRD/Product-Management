@@ -33,7 +33,9 @@ function Edit(index) {
 
 }
 function save(index) {
+    if (confirm("Are you sure to you want to save?"){
     a[index] = document.getElementById('inp').value;
     display();
     document.getElementById('output1').innerHTML = '';
+    }
 }
